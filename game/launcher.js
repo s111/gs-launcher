@@ -5,6 +5,7 @@ $(function() {
     addMessageHandler(function(msg) {
         if (msg === "identified") {
             sendToBackend("list");
+            sendToBackend("get ip");
         }
 
         switch (msg.action) {
@@ -53,6 +54,10 @@ $(function() {
                 } else {
                     $("#players").html(" " + msg.data + " players");
                 }
+
+                break;
+            case "get ip":
+                $("#ip").html(msg.data);
 
                 break;
         }
