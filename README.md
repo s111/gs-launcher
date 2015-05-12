@@ -15,6 +15,8 @@ Using the controller on their smartphone a player can browse through the games, 
 
 ## Precompiled
 The game packaged together with the controller.  
+[Linux](https://github.com/s111/gs-launcher/releases/download/v1.0/launcher_linux.zip)  
+[Windows](https://github.com/s111/gs-launcher/releases/download/v1.0/launcher_windows.zip)  
 [All Releases](https://github.com/s111/gs-launcher/releases)
 
 Unzip and the ```launcher``` folder can now be added to the game systems ```games``` directory.
